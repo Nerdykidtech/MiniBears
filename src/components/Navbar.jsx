@@ -20,12 +20,11 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <img 
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fa.espncdn.com%2Fcombiner%2Fi%3Fimg%3D%2Fi%2Fteamlogos%2Fnfl%2F500%2Fchi.png&f=1&nofb=1&ipt=2fd059d084b4792411152de8fc146dd9bda880344675d988fea2152c90698191" 
-            alt="Gladewater Bears" 
-            className="logo-img"
-          />
-          <span className="logo-text">Gladewater Bears</span>
+          <span className="logo-bear">🐻</span>
+          <div className="logo-text-group">
+            <span className="logo-glade">GLADE</span>
+            <span className="logo-water">WATER</span>
+          </div>
         </Link>
 
         <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
