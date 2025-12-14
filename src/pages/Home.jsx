@@ -8,14 +8,21 @@ const Home = () => {
       <section className="hero">
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <img 
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fa.espncdn.com%2Fcombiner%2Fi%3Fimg%3D%2Fi%2Fteamlogos%2Fnfl%2F500%2Fchi.png&f=1&nofb=1&ipt=2fd059d084b4792411152de8fc146dd9bda880344675d988fea2152c90698191" 
-            alt="Gladewater Bears" 
-            className="hero-logo"
-          />
-          <h1>Gladewater Bears</h1>
+          <div className="hero-badge">
+            <span className="badge-emoji">🐻</span>
+            <span className="badge-text">LITTLE LEAGUE</span>
+          </div>
+          <h1 className="hero-title">
+            <span className="title-glade">GLADEWATER</span>
+            <span className="title-bears">MINI-BEARS</span>
+          </h1>
+          <div className="hero-divider">
+            <span className="divider-icon">🏈</span>
+            <span className="divider-line"></span>
+            <span className="divider-icon">📣</span>
+          </div>
           <h2>Mini Cheer & Mini Football</h2>
-          <p>Building character, teamwork, and champions!</p>
+          <p className="hero-tagline">Building character, teamwork, and champions!</p>
           <div className="hero-buttons">
             <Link to="/signup" className="btn btn-primary">Sign Up Now</Link>
             <Link to="/schedule" className="btn btn-secondary">View Schedule</Link>
