@@ -39,40 +39,40 @@
   },
   "cheer": {
     "1st": [
-      {"date": "Sept 7, 2024", "event": "Football Game - vs Longview Cubs", "time": "9:00 AM", "location": "Home"},
-      {"date": "Sept 14, 2024", "event": "Football Game - vs Tyler Tigers", "time": "10:00 AM", "location": "Away"},
-      {"date": "Sept 21, 2024", "event": "Football Game - vs Marshall Mavericks", "time": "9:00 AM", "location": "Home"},
-      {"date": "Sept 28, 2024", "event": "Football Game - vs Kilgore Bulldogs", "time": "11:00 AM", "location": "Away"}
+      {"date": "Sept 7, 2024", "event": "Longview Cubs", "time": "9:00 AM", "location": "Home"},
+      {"date": "Sept 14, 2024", "event": "Tyler Tigers", "time": "10:00 AM", "location": "Away"},
+      {"date": "Sept 21, 2024", "event": "Marshall Mavericks", "time": "9:00 AM", "location": "Home"},
+      {"date": "Sept 28, 2024", "event": "Kilgore Bulldogs", "time": "11:00 AM", "location": "Away"}
     ],
     "2nd": [
-      {"date": "Sept 7, 2024", "event": "Football Game - vs Longview Cubs", "time": "10:00 AM", "location": "Home"},
-      {"date": "Sept 14, 2024", "event": "Football Game - vs Tyler Tigers", "time": "11:00 AM", "location": "Away"},
-      {"date": "Sept 21, 2024", "event": "Football Game - vs Marshall Mavericks", "time": "10:00 AM", "location": "Home"},
-      {"date": "Sept 28, 2024", "event": "Football Game - vs Kilgore Bulldogs", "time": "12:00 PM", "location": "Away"}
+      {"date": "Sept 7, 2024", "event": "Longview Cubs", "time": "10:00 AM", "location": "Home"},
+      {"date": "Sept 14, 2024", "event": "Tyler Tigers", "time": "11:00 AM", "location": "Away"},
+      {"date": "Sept 21, 2024", "event": "Marshall Mavericks", "time": "10:00 AM", "location": "Home"},
+      {"date": "Sept 28, 2024", "event": "Kilgore Bulldogs", "time": "12:00 PM", "location": "Away"}
     ],
     "3rd": [
-      {"date": "Sept 7, 2024", "event": "Football Game - vs Longview Cubs", "time": "11:00 AM", "location": "Home"},
-      {"date": "Sept 14, 2024", "event": "Football Game - vs Tyler Tigers", "time": "12:00 PM", "location": "Away"},
-      {"date": "Sept 21, 2024", "event": "Football Game - vs Marshall Mavericks", "time": "11:00 AM", "location": "Home"},
-      {"date": "Sept 28, 2024", "event": "Football Game - vs Kilgore Bulldogs", "time": "1:00 PM", "location": "Away"}
+      {"date": "Sept 7, 2024", "event": "Longview Cubs", "time": "11:00 AM", "location": "Home"},
+      {"date": "Sept 14, 2024", "event": "Tyler Tigers", "time": "12:00 PM", "location": "Away"},
+      {"date": "Sept 21, 2024", "event": "Marshall Mavericks", "time": "11:00 AM", "location": "Home"},
+      {"date": "Sept 28, 2024", "event": "Kilgore Bulldogs", "time": "1:00 PM", "location": "Away"}
     ],
     "4th": [
-      {"date": "Sept 7, 2024", "event": "Football Game - vs Longview Cubs", "time": "12:00 PM", "location": "Home"},
-      {"date": "Sept 14, 2024", "event": "Football Game - vs Tyler Tigers", "time": "1:00 PM", "location": "Away"},
-      {"date": "Sept 21, 2024", "event": "Football Game - vs Marshall Mavericks", "time": "12:00 PM", "location": "Home"},
-      {"date": "Sept 28, 2024", "event": "Football Game - vs Kilgore Bulldogs", "time": "2:00 PM", "location": "Away"}
+      {"date": "Sept 7, 2024", "event": "Longview Cubs", "time": "12:00 PM", "location": "Home"},
+      {"date": "Sept 14, 2024", "event": "Tyler Tigers", "time": "1:00 PM", "location": "Away"},
+      {"date": "Sept 21, 2024", "event": "Marshall Mavericks", "time": "12:00 PM", "location": "Home"},
+      {"date": "Sept 28, 2024", "event": "Kilgore Bulldogs", "time": "2:00 PM", "location": "Away"}
     ],
     "5th": [
-      {"date": "Sept 7, 2024", "event": "Football Game - vs Longview Cubs", "time": "1:00 PM", "location": "Home"},
-      {"date": "Sept 14, 2024", "event": "Football Game - vs Tyler Tigers", "time": "2:00 PM", "location": "Away"},
-      {"date": "Sept 21, 2024", "event": "Football Game - vs Marshall Mavericks", "time": "1:00 PM", "location": "Home"},
-      {"date": "Sept 28, 2024", "event": "Football Game - vs Kilgore Bulldogs", "time": "3:00 PM", "location": "Away"}
+      {"date": "Sept 7, 2024", "event": "Longview Cubs", "time": "1:00 PM", "location": "Home"},
+      {"date": "Sept 14, 2024", "event": "Tyler Tigers", "time": "2:00 PM", "location": "Away"},
+      {"date": "Sept 21, 2024", "event": "Marshall Mavericks", "time": "1:00 PM", "location": "Home"},
+      {"date": "Sept 28, 2024", "event": "Kilgore Bulldogs", "time": "3:00 PM", "location": "Away"}
     ],
     "6th": [
-      {"date": "Sept 7, 2024", "event": "Football Game - vs Longview Cubs", "time": "2:00 PM", "location": "Home"},
-      {"date": "Sept 14, 2024", "event": "Football Game - vs Tyler Tigers", "time": "3:00 PM", "location": "Away"},
-      {"date": "Sept 21, 2024", "event": "Football Game - vs Marshall Mavericks", "time": "2:00 PM", "location": "Home"},
-      {"date": "Sept 28, 2024", "event": "Football Game - vs Kilgore Bulldogs", "time": "4:00 PM", "location": "Away"}
+      {"date": "Sept 7, 2024", "event": "Longview Cubs", "time": "2:00 PM", "location": "Home"},
+      {"date": "Sept 14, 2024", "event": "Tyler Tigers", "time": "3:00 PM", "location": "Away"},
+      {"date": "Sept 21, 2024", "event": "Marshall Mavericks", "time": "2:00 PM", "location": "Home"},
+      {"date": "Sept 28, 2024", "event": "Kilgore Bulldogs", "time": "4:00 PM", "location": "Away"}
     ]
   }
 }
