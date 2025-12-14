@@ -95,18 +95,18 @@ const Schedule = () => {
                 <tbody>
                   {getSchedule().map((game, index) => (
                     <tr key={index}>
-                      <td className="date-cell">{game.date}</td>
-                      <td className="opponent-cell">
+                      <td className="date-cell" data-label="Date">{game.date}</td>
+                      <td className="opponent-cell" data-label={selectedProgram === 'football' ? 'Opponent' : 'Event'}>
                         {selectedProgram === 'football' ? game.opponent : game.event}
                       </td>
-                      <td className="time-cell">{game.time}</td>
-                      <td className="location-cell">
+                      <td className="time-cell" data-label="Time">{game.time}</td>
+                      <td className="location-cell" data-label="Location">
                         <span className={`location-badge location-${game.location.toLowerCase()}`}>
                           {game.location}
                         </span>
                       </td>
                       {selectedProgram === 'football' && (
-                        <td className={`score-cell ${getScoreClass(game.score)}`}>
+                        <td className={`score-cell ${getScoreClass(game.score)}`} data-label="Score">
                           {game.score}
                         </td>
                       )}
