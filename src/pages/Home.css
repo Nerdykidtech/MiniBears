@@ -20,8 +20,21 @@
   left: 0;
   right: 0;
   bottom: 0;
+  background: url('https://www.brockusa.com/wp-content/uploads/2019/07/Gladewater2-scaled-1.jpg') center/cover no-repeat;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: radial-gradient(circle at 30% 50%, rgba(255, 102, 0, 0.15) 0%, transparent 50%),
               radial-gradient(circle at 70% 80%, rgba(255, 102, 0, 0.1) 0%, transparent 40%);
+  z-index: 1;
 }
 
 .hero-content {

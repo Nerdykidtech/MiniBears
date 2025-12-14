@@ -25,7 +25,7 @@ const Home = () => {
           <p className="hero-tagline">Building character, teamwork, and champions!</p>
           <div className="hero-buttons">
             <Link to="/signup" className="btn btn-primary">Sign Up Now</Link>
-            <Link to="/schedule" className="btn btn-secondary">View Schedule</Link>
+            <Link to="/schedule" className="btn btn-primary">View Schedule</Link>
           </div>
         </div>
       </section>
