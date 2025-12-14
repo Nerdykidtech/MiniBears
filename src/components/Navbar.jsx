@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
           <span className="logo-bear">🐻</span>
           <div className="logo-text-group">
-            <span className="logo-glade">GLADE</span><span className="logo-water">WATER</span>
+            <span className="logo-glade">GLADEWATER </span><span className="logo-water">‎ MINI-BEARS</span>
           </div>
         </Link>
 
