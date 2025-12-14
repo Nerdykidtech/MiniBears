@@ -283,7 +283,17 @@
 }
 
 .form-row-3 {
-  grid-template-columns: 2fr 1fr 1fr;
+  display: flex;
+  gap: 20px;
+}
+
+.form-row-3 .form-group:nth-child(1) {
+  flex: 2;
+}
+
+.form-row-3 .form-group:nth-child(2),
+.form-row-3 .form-group:nth-child(3) {
+  flex: 1;
 }
 
 .form-group {
@@ -291,6 +301,7 @@
   flex-direction: column;
   gap: 8px;
   margin-bottom: 20px;
+  min-width: 0; /* Prevents overflow in flex containers */
 }
 
 .form-group label {
@@ -301,6 +312,7 @@
 
 .form-group input,
 .form-group select {
+  width: 100%;
   padding: 14px 18px;
   font-size: 1rem;
   border: 2px solid #e0e0e0;
@@ -309,6 +321,7 @@
   color: #333;
   transition: all 0.3s ease;
   font-family: inherit;
+  box-sizing: border-box;
 }
 
 .form-group input:focus,
@@ -670,7 +683,7 @@
   }
 
   .form-row-3 {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 
   .payment-options {

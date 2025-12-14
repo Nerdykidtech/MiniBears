@@ -6,7 +6,16 @@ const Signup = () => {
   const [formData, setFormData] = useState({
     program: '',
     numKids: 1,
-    children: [],
+    children: [{
+      firstName: '',
+      lastName: '',
+      dateOfBirth: '',
+      grade: '',
+      shirtSize: '',
+      pantsSize: '',
+      allergies: '',
+      medicalConditions: ''
+    }],
     parent: {
       firstName: '',
       lastName: '',
@@ -31,20 +40,31 @@ const Signup = () => {
 
   // Initialize children array when numKids changes
   const initializeChildren = (num) => {
-    const children = [];
-    for (let i = 0; i < num; i++) {
-      children.push({
-        firstName: '',
-        lastName: '',
-        dateOfBirth: '',
-        grade: '',
-        shirtSize: '',
-        pantsSize: '',
-        allergies: '',
-        medicalConditions: ''
-      });
-    }
-    setFormData(prev => ({ ...prev, numKids: num, children }));
+    setFormData(prev => {
+      const currentChildren = [...prev.children];
+      const newChildren = [];
+      
+      for (let i = 0; i < num; i++) {
+        if (i < currentChildren.length) {
+          // Keep existing data
+          newChildren.push(currentChildren[i]);
+        } else {
+          // Add new empty child
+          newChildren.push({
+            firstName: '',
+            lastName: '',
+            dateOfBirth: '',
+            grade: '',
+            shirtSize: '',
+            pantsSize: '',
+            allergies: '',
+            medicalConditions: ''
+          });
+        }
+      }
+      
+      return { ...prev, numKids: num, children: newChildren };
+    });
   };
 
   const updateChild = (index, field, value) => {
