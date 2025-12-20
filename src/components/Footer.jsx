@@ -13,7 +13,7 @@ const Footer = () => {
             />
             <h3>Gladewater Bears</h3>
           </div>
-          <p>Mini Cheer & Mini Football</p>
+          <p>Youth Football and Youth Cheer</p>
           <p>Building champions on and off the field!</p>
         </div>
 

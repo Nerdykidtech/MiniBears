@@ -9,7 +9,7 @@ const Cheer = () => {
         <div className="page-hero-overlay"></div>
         <div className="page-hero-content">
           <span className="hero-icon">📣</span>
-          <h1>Mini Cheer</h1>
+          <h1>Youth Cheer</h1>
           <p>Spirit, Energy, and Teamwork!</p>
         </div>
       </section>
@@ -21,16 +21,16 @@ const Cheer = () => {
             <div className="about-content">
               <h2>About Our Cheer Program</h2>
               <p>
-                The Gladewater Bears Mini Cheer program is designed to introduce young athletes to the 
+                The Gladewater Bears Youth Cheer program is designed to introduce young athletes to the 
                 exciting world of cheerleading. Our program focuses on building confidence, coordination, 
                 and teamwork while having fun!
               </p>
               <p>
-                Our cheerleaders perform at all home football games, supporting our Mini Football teams 
+                Our cheerleaders perform at all home football games, supporting our Youth Football teams 
                 and learning what it means to be part of the Bears family. We teach age-appropriate 
                 cheers, chants, and basic motions in a safe and encouraging environment.
               </p>
-              <Link to="/signup" className="btn btn-primary">Join Mini Cheer</Link>
+              <Link to="/signup" className="btn btn-primary">Join Youth Cheer</Link>
             </div>
             <div className="about-image">
               <div className="image-placeholder">

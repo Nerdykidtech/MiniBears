@@ -198,7 +198,7 @@ const Contact = () => {
             </div>
             <div className="faq-item">
               <h4>What ages/grades are eligible?</h4>
-              <p>Our Mini Cheer and Mini Football programs are open to children in grades 1st through 6th.</p>
+              <p>Our Youth Cheer and Youth Football programs are open to children in grades 1st through 6th.</p>
             </div>
             <div className="faq-item">
               <h4>Is equipment provided?</h4>

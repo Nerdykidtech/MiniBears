@@ -9,19 +9,19 @@ const Home = () => {
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <div className="hero-badge">
-            <span className="badge-emoji">🐻</span>
-            <span className="badge-text">LITTLE LEAGUE</span>
+            <span className="badge-emoji"></span>
+            <span className="badge-text">YOUTH LEAGUE</span>
           </div>
           <h1 className="hero-title">
             <span className="title-glade">GLADEWATER</span>
-            <span className="title-bears">MINI-BEARS</span>
+            <span className="title-bears">BEARS</span>
           </h1>
           <div className="hero-divider">
             <span className="divider-icon">🏈</span>
             <span className="divider-line"></span>
             <span className="divider-icon">📣</span>
           </div>
-          <h2>Mini Cheer & Mini Football</h2>
+          <h2>Youth Football and Youth Cheer</h2>
           <p className="hero-tagline">Building character, teamwork, and champions!</p>
           <div className="hero-buttons">
             <Link to="/signup" className="btn btn-primary">Sign Up Now</Link>
@@ -39,7 +39,7 @@ const Home = () => {
           <div className="programs-grid">
             <div className="program-card">
               <div className="program-icon">📣</div>
-              <h3>Mini Cheer</h3>
+              <h3>Youth Cheer</h3>
               <p>Learn cheers, chants, and routines while building confidence and school spirit. Our cheerleaders support our football teams at every game!</p>
               <ul>
                 <li>✓ Professional coaching</li>
@@ -52,7 +52,7 @@ const Home = () => {
 
             <div className="program-card">
               <div className="program-icon">🏈</div>
-              <h3>Mini Football</h3>
+              <h3>Youth Football</h3>
               <p>Develop fundamental football skills, teamwork, and sportsmanship in a fun and safe environment. Every player gets playing time!</p>
               <ul>
                 <li>✓ Experienced coaches</li>

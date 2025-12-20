@@ -9,7 +9,7 @@ const Football = () => {
         <div className="page-hero-overlay"></div>
         <div className="page-hero-content">
           <span className="hero-icon">🏈</span>
-          <h1>Mini Football</h1>
+          <h1>Youth Football</h1>
           <p>Strength, Teamwork, and Victory!</p>
         </div>
       </section>
@@ -21,7 +21,7 @@ const Football = () => {
             <div className="about-content">
               <h2>About Our Football Program</h2>
               <p>
-                The Gladewater Bears Mini Football program is where future gridiron stars are made! 
+                The Gladewater Bears Youth Football program is where future gridiron stars are made! 
                 Our program focuses on teaching fundamental football skills, sportsmanship, and 
                 teamwork in a fun and safe environment.
               </p>
@@ -30,7 +30,7 @@ const Football = () => {
                 to develop their skills regardless of their experience level. We believe in building 
                 character and confidence both on and off the field.
               </p>
-              <Link to="/signup" className="btn btn-primary">Join Mini Football</Link>
+              <Link to="/signup" className="btn btn-primary">Join Youth Football</Link>
             </div>
             <div className="about-image">
               <div className="image-placeholder">

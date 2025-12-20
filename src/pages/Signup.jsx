@@ -122,7 +122,7 @@ const Signup = () => {
                 onClick={() => setFormData(prev => ({ ...prev, program: 'cheer' }))}
               >
                 <span className="program-emoji">📣</span>
-                <h3>Mini Cheer</h3>
+                <h3>Youth Cheer</h3>
                 <p>Learn cheers, chants, and routines while building confidence!</p>
                 <span className="program-price">$150 per child</span>
               </div>
@@ -132,7 +132,7 @@ const Signup = () => {
                 onClick={() => setFormData(prev => ({ ...prev, program: 'football' }))}
               >
                 <span className="program-emoji">🏈</span>
-                <h3>Mini Football</h3>
+                <h3>Youth Football</h3>
                 <p>Develop football skills, teamwork, and sportsmanship!</p>
                 <span className="program-price">$175 per child</span>
               </div>
@@ -404,7 +404,7 @@ const Signup = () => {
             <div className="order-summary">
               <h3>Order Summary</h3>
               <div className="summary-item">
-                <span>{formData.program === 'cheer' ? 'Mini Cheer' : 'Mini Football'} Registration</span>
+                <span>{formData.program === 'cheer' ? 'Youth Cheer' : 'Youth Football'} Registration</span>
                 <span>${getProgramFee()} × {formData.numKids}</span>
               </div>
               <div className="summary-total">
@@ -492,7 +492,7 @@ const Signup = () => {
             
             <div className="review-section">
               <h3>📋 Program</h3>
-              <p>{formData.program === 'cheer' ? '📣 Mini Cheer' : '🏈 Mini Football'}</p>
+              <p>{formData.program === 'cheer' ? '📣 Youth Cheer' : '🏈 Youth Football'}</p>
             </div>
 
             <div className="review-section">
